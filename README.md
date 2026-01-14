@@ -2,3 +2,8 @@
 
 A Python library providing a wrapper around the BIND9 nsupdate utility, enabling secure dynamic DNS updates using TSIG authentication.
 Supports adding, deleting, and updating DNS records, with TSIG keys required for all operations.
+
+### Create an TSIG Key (bind-tools required)
+```
+tsig-keygen -a hmac-sha256
+```
